@@ -1,0 +1,6 @@
+flowchart TD
+    A[Excel Input: staff_original.xlsx] --> B[Gefilterte Auswahl: staff_input.xlsx]
+    B --> C[ORCID-Suche via search_orcid.ipynb]
+    C --> D[input_with_orcid.csv]
+    D --> E[QS-Erstellung via qs_csv.ipynb]
+    E --> F[quickstatements.csv]
