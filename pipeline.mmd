@@ -1,8 +1,23 @@
-flowchart TD
-    A[Excel Input: staff_original.xlsx] --> B[Gefilterte Auswahl: staff_input.xlsx]
-    B --> C[ORCID-Suche via search_orcid.ipynb]
-    C --> D[input_with_orcid.csv]
-    D --> E[QS-Erstellung via qs_csv.ipynb]
-    E --> F[qs_main_items.csv]
-    E --> G[qs_further_items.csv]
-    G --> H[QS-Erstellung für weitere items]
+flowchart LR
+    subgraph Eingangsdaten
+        A[<br>Excel Input: staff_original.xlsx<br><br>] --> B[<br>Gefilterte Auswahl: staff_input.xlsx<br><br>]
+    end
+    subgraph ORCID search
+        B --> C[<br>ORCID-Suche via search_orcid.ipynb<br><br>]
+        C --> D[<br>input_with_orcid.csv<br><br>]
+    end
+    subgraph QS-Erstellung Basic
+        D --> E[<br>QS-Erstellung via qs_csv.ipynb<br><br>]
+        E --> L[<br>qs_main_items.csv<br><br>]
+
+    end
+    subgraph QS-Erstellung für weitere items
+        E --> M[<br>orcid_only.csv<br><br>]
+        M --> N[<br>QS-Erstellung für weitere items<br><br>]
+        N --> O[<br>qs_further_items.csv<br><br>]
+    end
+    subgraph Import Wikidata
+        P[<br>Import Wikidata QuickStatment Tools<br><br>]
+        L --> P
+        O --> P
+    end

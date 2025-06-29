@@ -1,7 +1,6 @@
 from typing import Optional, Dict
 from functools import lru_cache
-import requests, time, os
-import pandas as pd
+import requests, time
 
 # Basis-Endpunkt der MediaWiki API (Wikidata)
 API_ENDPOINT = "https://www.wikidata.org/w/api.php"
