@@ -1,65 +1,79 @@
-## Datenpipeline
+## Data Pipeline
 
-### 🔄 ORCID-Suche und QS-Erzeugung
-#### 📁 1. Eingangsdaten
+### 🔄 ORCID Lookup and QS Generation
 
-| Datei                               | Beschreibung                                                                                                        |
-|-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| NFDI4Microbiota_staff_original.xlsx | Ursprüngliche Rohdaten (unbearbeitet)                                                                               |
-| NFDI4Microbiota_staff_input.xlsx    | Vorausgewählte Personenliste zur Verarbeitung vorbereitet; Formatierunge und nicht benöitgte Informationen entfernt |
+#### 📁 1. Input Data
 
-### 🔍 2. ORCID-Suche
+| File                                  | Description                                                                                                       |
+| ------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| NFDI4Microbiota\_staff\_original.xlsx | Original raw data (unmodified)                                                                                    |
+| NFDI4Microbiota\_staff\_input.xlsx    | Preprocessed list of selected individuals for further processing; formatting cleaned and unnecessary data removed |
 
-Notebook: search_orcid.ipynb\
-Funktion: orcid_search(...) + scholia_orcid(...)\
-→ Automatisierte Anreicherung um ORCID-ID
+---
 
-#### 🔧 Schritte:
-1. Einlesen der Excel-Datei (staff_input.xlsx)
-2. Iteration über Namen & Institutionen 
-3. Suche nach ORCID via:
+### 🔍 2. ORCID Lookup
+
+**Notebook:** `search_orcid.ipynb`
+**Functions:** `orcid_search(...)` + `scholia_orcid(...)`
+→ Automates enrichment with ORCID iD
+
+#### 🔧 Steps:
+
+1. Read input Excel file (`staff_input.xlsx`)
+2. Iterate over names & institutions
+3. Search for ORCID via:
+
    * ORCID Public API
    * Wikidata (SPARQL)
-4. Zusammenführen der Ergebnisse
-5. Export als input_with_orcid.csv
+4. Merge results
+5. Export to `input_with_orcid.csv`
 
-Ergebnis:
-✅ Datei: input_with_orcid.csv → enthält Name, Institution, ORCID, ORCID-Link
+**Result:**
+✅ File: `input_with_orcid.csv` → includes name, institution, ORCID, and ORCID link
 
-### 3. Erstellung der QuickStatements
+---
 
-Notebook: qs_csv.ipynb
-Funktion: file_to_qs(...)
+### 📝 3. QuickStatements Generation
 
-#### 🔧 Schritte:
-1. Einlesen von input_with_orcid.csv 
-2. Prüfung auf bestehende Personen in Wikidata (via ORCID oder Name)
-3. Auflösung der Institutionen zu Q-IDs 
-4. QS-Zeilen generieren für:
-   * P31:Q5 (instance of human)
-   * P496 (ORCID)
-   * P108 (institution)
-   * S854 (source URL)
-5. Export als: quickstatements.csv
+**Notebook:** `qs_csv.ipynb`
+**Function:** `file_to_qs(...)`
 
-Ergebnis:
-✅ Datei: quickstatements.csv → direkt importierbar via Wikidata QuickStatements Tool
+#### 🔧 Steps:
 
-### 4. Erstellung weitere QuickStatements
+1. Read `input_with_orcid.csv`
+2. Check for existing entries in Wikidata (via ORCID or name)
+3. Resolve institution names to Q-IDs
+4. Generate QS lines for:
 
-Notebook: qs_further_items_outputs.ipynb
-Funktion: export_orcid_qs(...)
+   * `P31:Q5` (instance of human)
+   * `P496` (ORCID)
+   * `P108` (employer / institution)
+   * `S854` (source URL)
+5. Export as `quickstatements.csv`
 
-#### 🔧 Schritte:
-1. Einlesen von orcid_only.csv 
-2. Prüfung auf bestehende Personen in Wikidata (via ORCID oder Name) nicht notwendig, da bereits in die orcid mitgegeben wird
-3. Auflösung der Q-IDs über ORCID 
-4. QS-Zeilen generieren für:
-   * EMPLOYMENT → P108
-   * EDUCATION → P69
-   * WORK → P800
-   * PEER REVIEW → P4032
-5. Export als: qs_further_items_output.csv
+**Result:**
+✅ File: `quickstatements.csv` → ready to import via Wikidata QuickStatements tool
 
-Ergebnis:
-✅ Datei: qs_further_items_output.csv → direkt importierbar via Wikidata QuickStatements Tool
+---
+
+### ➕ 4. Further QuickStatements
+
+**Notebook:** `qs_further_items_outputs.ipynb`
+**Function:** `export_orcid_qs(...)`
+
+#### 🔧 Steps:
+
+1. Read `orcid_only.csv`
+2. No need to check for existing entries – ORCID is already included
+3. Resolve Q-IDs using ORCID
+4. Generate QS lines for:
+
+   * `P108` (employment)
+   * `P69` (education)
+   * `P800` (notable work)
+   * `P4032` (peer review)
+5. Export as `qs_further_items_output.csv`
+
+**Result:**
+✅ File: `qs_further_items_output.csv` → ready to import via Wikidata QuickStatements tool
+
