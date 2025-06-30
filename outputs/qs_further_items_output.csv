@@ -1,19 +1,112 @@
-ID|P|Value|Qualifier_P|Qualifier_V|S854|S813
-CREATE|P800|Comparative SUMO Proteome Analysis Using Stable Isotopic Labeling by Amino Acids (SILAC).|||S854|https://orcid.org/0009-0009-8131-7627|S813|+2025-06-07T00:00:00Z/11
-CREATE|P69|University of Copenhagen|||S854|https://orcid.org/0000-0003-0161-0559|S813|+2025-06-07T00:00:00Z/11
-CREATE|P69|Leiden University|P580|+2014-00-00T00:00:00Z/9|S854|https://orcid.org/0000-0003-1655-0931|S813|+2025-06-07T00:00:00Z/11
-CREATE|P800|Navigating the Landscape: A Comprehensive Review of Current Virus Databases|||S854|https://orcid.org/0000-0003-1655-0931|S813|+2025-06-07T00:00:00Z/11
-CREATE|P4032|Oxford University Press|P236|2730-6151|S854|https://orcid.org/0000-0003-1655-0931|S813|+2025-06-07T00:00:00Z/11
-CREATE|P800|First full-genome alignment representative for the genusPestivirus|||S854|https://orcid.org/0000-0001-8999-4395|S813|+2025-06-07T00:00:00Z/11
-CREATE|P800|Robotic mechanical wounding is sufficient to induce phenylacetaldoxime accumulation in Tococa quadrialata|||S854|https://orcid.org/0009-0007-0313-2593|S813|+2025-06-07T00:00:00Z/11
-CREATE|P800|MuDoGeR: Multi-Domain Genome recovery from metagenomes made easy|||S854|https://orcid.org/0000-0001-6513-5350|S813|+2025-06-07T00:00:00Z/11
-CREATE|P4032|Public Library of Science|P236|1553-7358|S854|https://orcid.org/0000-0001-6513-5350|S813|+2025-06-07T00:00:00Z/11
-CREATE|P69|University of Nevada Reno|||S854|https://orcid.org/0009-0000-1799-5268|S813|+2025-06-07T00:00:00Z/11
-CREATE|P800|Collaborative work in NFDI|||S854|https://orcid.org/0000-0003-0616-5191|S813|+2025-06-07T00:00:00Z/11
-CREATE|P800|Aruna Object Storage|||S854|https://orcid.org/0000-0001-5130-546X|S813|+2025-06-07T00:00:00Z/11
-CREATE|P800|Crypt4GH-JS: securely storing sensitive data online with client-side encryption|||S854|https://orcid.org/0009-0004-4382-4760|S813|+2025-06-07T00:00:00Z/11
-CREATE|P800|Complete Genome Sequence of an Ebola Virus Isolate Imported from Sierra Leone to Germany Determined by Circle Sequencing|||S854|https://orcid.org/0009-0007-3729-1533|S813|+2025-06-07T00:00:00Z/11
-CREATE|P800|Urinary eosinophil-derived neurotoxin is associated with reduced lung function in pediatric asthma.|||S854|https://orcid.org/0000-0003-4328-9193|S813|+2025-06-07T00:00:00Z/11
-CREATE|P800|A Novel RNA Aptamer as Synthetic Inducer of DasR Controlled Transcription|||S854|https://orcid.org/0009-0006-8111-1723|S813|+2025-06-07T00:00:00Z/11
-CREATE|P800|Faecal Cytolysin is Associated With Worse Survival in Patients With Primary Sclerosing Cholangitis|||S854|https://orcid.org/0009-0008-2472-5061|S813|+2025-06-07T00:00:00Z/11
-CREATE|P800|ACT NOW, LATE OR NEVER: Make Digital Objects (more) archivable early in their life cycle?|||S854|https://orcid.org/0000-0002-9316-8982|S813|+2025-06-07T00:00:00Z/11
+None
+LAST|P800|"Comparative SUMO Proteome Analysis Using Stable Isotopic Labeling by Amino Acids (SILAC)."|S854|"https://orcid.org/0009-0009-8131-7627"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"The Sumo proteome of proliferating and neuronal-differentiating cells reveals Utf1 among key Sumo targets involved in neurogenesis."|S854|"https://orcid.org/0009-0009-8131-7627"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"Transient deSUMOylation of IRF2BP proteins controls early transcription in EGFR signaling."|S854|"https://orcid.org/0009-0009-8131-7627"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"Proteomic analysis reveals Utf1 as a neurogenesis-associated new Sumo target"|S854|"https://orcid.org/0009-0009-8131-7627"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"Transient deSUMOylation of IRF2BP proteins controls early transcription in EGFR signaling"|S854|"https://orcid.org/0009-0009-8131-7627"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"Navigating the Landscape: A Comprehensive Review of Current Virus Databases"|S854|"https://orcid.org/0000-0003-1655-0931"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"The Stochastic Assembly of Nitrobacter winogradskyi-Selected Microbiomes with Heterotrophs from Sewage Sludge or Grassland Soil."|S854|"https://orcid.org/0000-0003-1655-0931"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"Nitrification inhibitors effectively target N<sub>2</sub> O-producing Nitrosospira spp. in tropical soil."|S854|"https://orcid.org/0000-0003-1655-0931"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"Correction to: Genome-resolved metagenomics of sugarcane vinasse bacteria."|S854|"https://orcid.org/0000-0003-1655-0931"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"Nitrosospira sp. Govern Nitrous Oxide Emissions in a Tropical Soil Amended With Residues of Bioenergy Crop."|S854|"https://orcid.org/0000-0003-1655-0931"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P4032|"Oxford University Press"|P236|"2730-6151"|S854|"https://orcid.org/0000-0003-1655-0931"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"First full-genome alignment representative for the genusPestivirus"|S854|"https://orcid.org/0000-0001-8999-4395"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"AnchoRNA: Full virus genome alignments through conserved anchor regions"|S854|"https://orcid.org/0000-0001-8999-4395"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"Rfam 15: RNA families database in 2025"|S854|"https://orcid.org/0000-0001-8999-4395"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"Comprehensive survey of conserved RNA secondary structures in full-genome alignment of Hepatitis C virus"|S854|"https://orcid.org/0000-0001-8999-4395"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"The International Virus Bioinformatics Meeting 2023"|S854|"https://orcid.org/0000-0001-8999-4395"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"Robotic mechanical wounding is sufficient to induce phenylacetaldoxime accumulation in Tococa quadrialata"|S854|"https://orcid.org/0009-0007-0313-2593"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"Herbivory by Leaf-Cutting Ants: Exploring the Jasmonate Response in Host and Non-Host Plants"|S854|"https://orcid.org/0009-0007-0313-2593"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"MuDoGeR: Multi-Domain Genome recovery from metagenomes made easy"|S854|"https://orcid.org/0000-0001-6513-5350"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"Simulation of 69 microbial communities indicates sequencing depth and false positives are major drivers of bias in Prokaryotic metagenome-assembled genome recovery"|S854|"https://orcid.org/0000-0001-6513-5350"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"The fate of sulfonamide resistance genes and anthropogenic pollution marker intI1 after discharge of wastewater into a pristine river stream"|S854|"https://orcid.org/0000-0001-6513-5350"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"Corrigendum: The fate of sulfonamide resistance genes and anthropogenic pollution marker intI1 after discharge of wastewater into a pristine river stream(Front. Microbiol., (2023), 14, (1058350), 10.3389/fmicb.2023.1058350)"|S854|"https://orcid.org/0000-0001-6513-5350"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"The AnimalAssociatedMetagenomeDB reveals a bias towards livestock and developed countries and blind spots in functional-potential studies of animal-associated microbiomes"|S854|"https://orcid.org/0000-0001-6513-5350"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P4032|"Public Library of Science"|P236|"1553-7358"|S854|"https://orcid.org/0000-0001-6513-5350"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"Collaborative work in NFDI"|S854|"https://orcid.org/0000-0003-0616-5191"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"Screening of Oligomeric (Meth)acrylate Vaccine Adjuvants Synthesized via Catalytic Chain Transfer Polymerization"|S854|"https://orcid.org/0000-0003-0616-5191"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"PREPARATION OF BIOCOMPATIBLE OLIGOMERS"|S854|"https://orcid.org/0000-0003-0616-5191"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"Synthesis, characterization and nonlinear optical properties of polylactide and PMMA based azophloxine nanocomposites for optical limiting applications"|S854|"https://orcid.org/0000-0003-0616-5191"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"Biopolymer Systems in Soft Tissue Engineering: Cell Compatibility and Effect Studies Including Material, Catalyst, and Surface Properties"|S854|"https://orcid.org/0000-0003-0616-5191"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"Aruna Object Storage"|S854|"https://orcid.org/0000-0001-5130-546X"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"The Aruna Object Storage"|S854|"https://orcid.org/0000-0001-5130-546X"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"Towards a Research Data Commons in the German National Research Data Infrastructure NFDI: Vision, Governance, Architecture"|S854|"https://orcid.org/0000-0001-5130-546X"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"Towards a Research Data Commons in the German National Research Data Infrastructure NFDI: Vision, Governance, Architecture"|S854|"https://orcid.org/0000-0001-5130-546X"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"Evolutionarily stable gene clusters shed light on the common grounds of pathogenicity in the Acinetobacter calcoaceticus-baumannii complex"|S854|"https://orcid.org/0000-0001-5130-546X"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"Crypt4GH-JS: securely storing sensitive data online with client-side encryption"|S854|"https://orcid.org/0009-0004-4382-4760"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"Aruna Object Storage"|S854|"https://orcid.org/0009-0004-4382-4760"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"The Aruna Object Storage"|S854|"https://orcid.org/0009-0004-4382-4760"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"Complete Genome Sequence of an Ebola Virus Isolate Imported from Sierra Leone to Germany Determined by Circle Sequencing"|S854|"https://orcid.org/0009-0007-3729-1533"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"Urinary eosinophil-derived neurotoxin is associated with reduced lung function in pediatric asthma."|S854|"https://orcid.org/0000-0003-4328-9193"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"Identification of extracellular vesicle microRNA signatures specifically linked to inflammatory and metabolic mechanisms in obesity‐associated low type‐2 asthma"|S854|"https://orcid.org/0000-0003-4328-9193"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"Processing and decay of 6S-1 and 6S-2 RNAs in <i>Bacillus subtilis</i>."|S854|"https://orcid.org/0000-0003-4328-9193"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"Respiratory viral co‐infections in patients with COVID‐19 and associated outcomes: A systematic review and meta‐analysis"|S854|"https://orcid.org/0000-0003-4328-9193"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"Performance of point-of care molecular and antigen-based tests for SARS-CoV-2: a living systematic review and meta-analysis."|S854|"https://orcid.org/0000-0003-4328-9193"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"A Novel RNA Aptamer as Synthetic Inducer of DasR Controlled Transcription"|S854|"https://orcid.org/0009-0006-8111-1723"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"Investigating the Prevalence of RNA-Binding Metabolic Enzymes in E. coli"|S854|"https://orcid.org/0009-0006-8111-1723"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"sRNA scr5239 Involved in Feedback Loop Regulation of Streptomyces coelicolor Central Metabolism."|S854|"https://orcid.org/0009-0006-8111-1723"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"A dual control mechanism synchronizes riboflavin and sulphur metabolism in Bacillus subtilis."|S854|"https://orcid.org/0009-0006-8111-1723"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"Identification of metE as a second target of the sRNA scr5239 in Streptomyces coelicolor."|S854|"https://orcid.org/0009-0006-8111-1723"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"HiBC: a publicly available collection of bacterial strains isolated from the human gut"|S854|"https://orcid.org/0009-0008-2472-5061"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"Intercellular adhesion molecule-1 protects against adipose tissue inflammation and insulin resistance but promotes liver inflammation and hepatic fibrosis in mice"|S854|"https://orcid.org/0009-0008-2472-5061"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"Function-Based Selection of Synthetic Communities Enables Mechanistic Microbiome Studies"|S854|"https://orcid.org/0009-0008-2472-5061"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"Faecal Cytolysin is Associated With Worse Survival in Patients With Primary Sclerosing Cholangitis"|S854|"https://orcid.org/0009-0008-2472-5061"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"Benchmarking of shotgun sequencing depth highlights strain-level limitations of metagenomic analysis"|S854|"https://orcid.org/0009-0008-2472-5061"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"ACT NOW, LATE OR NEVER: Make Digital Objects (more) archivable early in their life cycle?"|S854|"https://orcid.org/0000-0002-9316-8982"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"Metadatenschemata für Forschungsdaten - Generische Standards und Spezifika in der Biologie und den Ingenieurwissenschaften"|S854|"https://orcid.org/0000-0002-9316-8982"|S813|+2025-06-30T00:00:00Z/11
+None
+LAST|P800|"Characterization of the transcription factor ANAC058 and its role in suberin regulation"|S854|"https://orcid.org/0000-0002-9316-8982"|S813|+2025-06-30T00:00:00Z/11
