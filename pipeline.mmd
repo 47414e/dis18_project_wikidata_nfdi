@@ -1,23 +1,22 @@
 flowchart LR
-    subgraph Eingangsdaten
-        A[<br>Excel Input: staff_original.xlsx<br><br>] --> B[<br>Gefilterte Auswahl: staff_input.xlsx<br><br>]
+    subgraph Input Data
+        A[<br>Excel Input: staff_original.xlsx<br><br>] --> B[<br>Filtered Selection: staff_input.xlsx<br><br>]
     end
-    subgraph ORCID search
-        B --> C[<br>ORCID-Suche via search_orcid.ipynb<br><br>]
+    subgraph ORCID Search
+        B --> C[<br>ORCID Lookup via search_orcid.ipynb<br><br>]
         C --> D[<br>input_with_orcid.csv<br><br>]
     end
-    subgraph QS-Erstellung Basic
-        D --> E[<br>QS-Erstellung via qs_csv.ipynb<br><br>]
+    subgraph QS Generation – Basic
+        D --> E[<br>QS Generation via qs_csv.ipynb<br><br>]
         E --> L[<br>qs_main_items.csv<br><br>]
-
     end
-    subgraph QS-Erstellung für weitere items
+    subgraph QS Generation – Additional Items
         E --> M[<br>orcid_only.csv<br><br>]
-        M --> N[<br>QS-Erstellung für weitere items<br><br>]
+        M --> N[<br>QS Generation for further items<br><br>]
         N --> O[<br>qs_further_items.csv<br><br>]
     end
-    subgraph Import Wikidata
-        P[<br>Import Wikidata QuickStatment Tools<br><br>]
+    subgraph Wikidata Import
+        P[<br>Import via Wikidata QuickStatements Tool<br><br>]
         L --> P
         O --> P
     end
