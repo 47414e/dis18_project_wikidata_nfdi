@@ -6,11 +6,11 @@ flowchart LR
         B --> C[<br>ORCID Lookup via search_orcid.ipynb<br><br>]
         C --> D[<br>input_with_orcid.csv<br><br>]
     end
-    subgraph QS Generation – Basic
+    subgraph QS Generation - Basic
         D --> E[<br>QS Generation via qs_csv.ipynb<br><br>]
         E --> L[<br>qs_main_items.csv<br><br>]
     end
-    subgraph QS Generation – Additional Items
+    subgraph QS Generation - Additional Items
         E --> M[<br>orcid_only.csv<br><br>]
         M --> N[<br>QS Generation for further items<br><br>]
         N --> O[<br>qs_further_items.csv<br><br>]
